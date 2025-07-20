@@ -27,7 +27,7 @@ const Navbar = () => {
     }
   }, [theme]);
   return (
-    <div className="flex items-center justify-between py-6">
+    <div className="flex  items-center justify-between py-6">
       <div className="left flex items-center gap-10 max-[450px]:gap-2 max-[1075px]:gap-4">
         <button onClick={toggleMenu} className="max-[1075px]:block hidden">
           <IoMenu size={24} />

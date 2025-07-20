@@ -4,12 +4,20 @@
   --bg-color: white;
   --description-color: #030526;
   --menu-bg: white;
+  --navbar-bg: white;
+  --hero-bg: #f2f0f1;
+  --black-btn-bg: black;
+  --black-btn-text: white;
 }
 .dark {
   --text-color: #ffffff;
   --bg-color: #191717;
   --description-color: white;
   --menu-bg: #191717;
+  --navbar-bg: #191717;
+  --hero-bg: rgb(17, 16, 16);
+  --black-btn-bg: #ffffff;
+  --black-btn-text: black;
 }
 
 html,
@@ -19,13 +27,24 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.text {
-  color: var(--text-color);
+.title {
+  font-family: "Special Gothic Expanded One", sans-serif;
 }
 .description {
   color: var(--description-color);
-  opacity: 0.4;
+  opacity: 0.7;
 }
 .menu {
   background-color: var(--menu-bg);
+}
+.navbar {
+  background-color: var(--navbar-bg);
+}
+
+.hero {
+  background-color: var(--hero-bg);
+}
+.blackbtn {
+  background-color: var(--black-btn-bg);
+  color: var(--black-btn-text);
 }
