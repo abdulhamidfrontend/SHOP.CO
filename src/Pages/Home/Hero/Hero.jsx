@@ -11,7 +11,7 @@ const Hero = () => {
           designed to bring out your individuality and cater to your sense of
           style.
         </p>
-        <button className="blackbtn w-fit py-[15px] max-[400px]:w-full rounded-[62px] px-[67px]">
+        <button className="blackbtn w-fit py-[15px] max-[450px]:w-full rounded-[62px] px-[67px]">
           Shop Now
         </button>
         <div className="flex items-center max-[400px]:flex-col  max-[685px]:flex-wrap max-[685px]:w-full max-[685px]:m-auto  gap-8">
