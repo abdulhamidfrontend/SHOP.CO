@@ -1,0 +1,31 @@
+@import "tailwindcss";
+:root {
+  --text-color: #000;
+  --bg-color: white;
+  --description-color: #030526;
+  --menu-bg: white;
+}
+.dark {
+  --text-color: #ffffff;
+  --bg-color: #191717;
+  --description-color: white;
+  --menu-bg: #191717;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Raleway", sans-serif;
+}
+
+.text {
+  color: var(--text-color);
+}
+.description {
+  color: var(--description-color);
+  opacity: 0.4;
+}
+.menu {
+  background-color: var(--menu-bg);
+}
