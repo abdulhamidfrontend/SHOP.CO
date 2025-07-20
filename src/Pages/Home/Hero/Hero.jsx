@@ -14,7 +14,7 @@ const Hero = () => {
         <button className="blackbtn w-fit py-[15px] max-[450px]:w-full rounded-[62px] px-[67px]">
           Shop Now
         </button>
-        <div className="flex items-center max-[400px]:flex-col  max-[685px]:flex-wrap max-[685px]:w-full max-[685px]:m-auto  gap-8">
+        <div className="flex items-center max-[430px]:flex-col  max-[685px]:flex-wrap max-[685px]:w-full max-[685px]:m-auto  gap-8">
           <div className="flex flex-col max-[400px]:items-center items-start">
             <h1 className="font-bold max-[1315px]:text-3xl text-[40px] title">
               200+
