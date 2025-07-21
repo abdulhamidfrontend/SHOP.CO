@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="logo">
             <Logo />
           </div>
-          <p className="text-black font-normal text-[14px] leading-[157%] opacity-60">
+          <p className=" font-normal text-[14px] leading-[157%] opacity-60">
             We have clothes that suits your style and which you’re proud to
             wear. From women to men.
           </p>
