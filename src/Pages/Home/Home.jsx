@@ -1,4 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
+import Browse from "./Browse/Browse";
 import Companies from "./Companies/Companies";
 import Hero from "./Hero/Hero";
 import NewArrival from "./NewArrival/NewArrival";
@@ -31,6 +32,11 @@ const Home = () => {
       <div className="w-full">
         <div className="topselling  w-[90%] m-auto py-18 ">
           <TopSelling />
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="browse w-[90%] m-auto pb-20">
+          <Browse />
         </div>
       </div>
     </div>
