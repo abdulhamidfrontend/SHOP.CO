@@ -3,6 +3,8 @@ import Companies from "./Companies/Companies";
 import Hero from "./Hero/Hero";
 import NewArrival from "./NewArrival/NewArrival";
 
+import TopSelling from "./TopSelling/TopSelling";
+
 const Home = () => {
   return (
     <div className="w-full m-auto">
@@ -22,8 +24,13 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="newarrivals w-[90%] m-auto py-18 ">
+        <div className="newarrivals border-b border-[#e1e1e1] w-[90%] m-auto py-18 ">
           <NewArrival />
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="topselling  w-[90%] m-auto py-18 ">
+          <TopSelling />
         </div>
       </div>
     </div>
