@@ -6,7 +6,7 @@ import prada from "../../../assets/prada.png";
 
 const Companies = () => {
   return (
-    <div className="py-10 w-full">
+    <div id="brands" className="py-10  w-full">
       <div className="flex items-center gap-25 max-[850px]:gap-15 max-[550px]:gap-8.5 flex-wrap justify-center">
         <a
           href="https://www.versace.com"

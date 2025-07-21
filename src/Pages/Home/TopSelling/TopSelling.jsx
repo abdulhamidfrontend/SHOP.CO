@@ -44,7 +44,7 @@ const TopSelling = () => {
   }
 
   return (
-    <div>
+    <div id="onsale">
       <div className="">
         <h1 className="title font-bold max-[650px]:text-4xl max-[450px]:text-3xl text-[48px] text-center">
           TOP SELLING

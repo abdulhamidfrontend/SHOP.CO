@@ -25,6 +25,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .title {

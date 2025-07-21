@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed top-0 left-0 bottom-0 z-50 w-[100%]   menu    shadow-2xl transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 bottom-0 z-50 w-[90%]   menu    shadow-2xl transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -101,15 +101,27 @@ const Navbar = () => {
               <option value="shop">Shop</option>
             </select>
           </div>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">On Sale</h1>
-          </Link>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">New Arrivals</h1>
-          </Link>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">Brands</h1>
-          </Link>
+          <a
+            href="#onsale"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            On Sale
+          </a>
+          <a
+            href="#new-arrivals"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            New Arrivals
+          </a>
+          <a
+            href="#brands"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            Brands
+          </a>
         </div>
       </div>
     </div>
