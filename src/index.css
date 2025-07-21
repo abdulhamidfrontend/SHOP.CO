@@ -9,6 +9,7 @@
   --black-btn-bg: black;
   --black-btn-text: white;
   --comment-bg: white;
+  --footer-bg: #f0f0f0;
 }
 .dark {
   --text-color: #ffffff;
@@ -20,6 +21,7 @@
   --black-btn-bg: #ffffff;
   --black-btn-text: black;
   --comment-bg: white;
+  --footer-bg: black;
 }
 
 html,
@@ -53,4 +55,7 @@ body {
 }
 .comment {
   background-color: var(--comment-bg);
+}
+.footer {
+  background-color: var(--footer-bg);
 }

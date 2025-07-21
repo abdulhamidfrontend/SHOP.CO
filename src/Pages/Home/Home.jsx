@@ -2,6 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Browse from "./Browse/Browse";
 import Comments from "./Comments/Comments";
 import Companies from "./Companies/Companies";
+import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import NewArrival from "./NewArrival/NewArrival";
 import Offers from "./Offers/Offers";
@@ -47,8 +48,13 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="offers w-[90%] m-auto">
+        <div className="offers py-20 w-[90%] m-auto">
           <Offers />
+        </div>
+      </div>
+      <div className="w-full footer">
+        <div className=" w-[90%] m-auto">
+          <Footer />
         </div>
       </div>
     </div>
