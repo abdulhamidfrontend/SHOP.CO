@@ -4,6 +4,7 @@ import Comments from "./Comments/Comments";
 import Companies from "./Companies/Companies";
 import Hero from "./Hero/Hero";
 import NewArrival from "./NewArrival/NewArrival";
+import Offers from "./Offers/Offers";
 
 import TopSelling from "./TopSelling/TopSelling";
 
@@ -43,6 +44,11 @@ const Home = () => {
       <div className="w-full">
         <div className="comments w-[90%] m-auto">
           <Comments />
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="offers w-[90%] m-auto">
+          <Offers />
         </div>
       </div>
     </div>
