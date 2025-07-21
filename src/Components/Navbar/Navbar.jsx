@@ -29,13 +29,13 @@ const Navbar = () => {
   return (
     <div className="flex  items-center justify-between py-6">
       <div className="left flex items-center gap-10 max-[450px]:gap-2 max-[1075px]:gap-4">
-        <button onClick={toggleMenu} className="max-[1075px]:block hidden">
+        <button onClick={toggleMenu} className="max-[1105px]:block hidden">
           <IoMenu size={24} />
         </button>
         <div className="logo">
           <Logo />
         </div>
-        <div className="links max-[1075px]:hidden flex items-center gap-6">
+        <div className="links max-[1105px]:hidden flex items-center gap-6">
           <div>
             <select name="" id="">
               <option value="shop">Shop</option>
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="form">
           <form
             action=""
-            className="w-[577px] max-[1075px]:w-[500px] max-[930px]:w-[400px] max-[815px]:w-[300px] max-[705px]:w-[250px] max-[650px]:hidden flex items-center max-[1385px]:w-[400px] max-[1190px]:w-[300px]  bg-[#f0f0f0]  py-3 px-4 rounded-[66px] gap-3"
+            className="w-[577px] max-[1075px]:w-[500px] max-[960px]:w-[400px] max-[845px]:w-[300px] max-[735px]:w-[250px] max-[680px]:hidden flex items-center max-[1385px]:w-[400px] max-[1216px]:w-[300px]  bg-[#f0f0f0]  py-3 px-4 rounded-[66px] gap-3"
           >
             <IoSearch size={24} className="text-gray-500" />
             <input
@@ -67,7 +67,7 @@ const Navbar = () => {
           </form>
         </div>
         <div className="actions flex items-center max-[450px]:gap-2.5 gap-3.5">
-          <button className="hidden max-[650px]:block cursor-pointer hover:scale-105 active:scale-100 transition duration-300        ">
+          <button className="hidden max-[680px]:block cursor-pointer hover:scale-105 active:scale-100 transition duration-300        ">
             <IoSearch size={22} />
           </button>
           <button className="cursor-pointer hover:scale-105 active:scale-100 transition duration-300        ">

@@ -1,4 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
+import Companies from "./Companies/Companies";
 import Hero from "./Hero/Hero";
 
 const Home = () => {
@@ -12,6 +13,11 @@ const Home = () => {
       <div className="hero w-full ">
         <div className="w-[90%] m-auto pt-40">
           <Hero />
+        </div>
+      </div>
+      <div className="bg-black w-full">
+        <div className="companies w-[90%] m-auto">
+          <Companies />
         </div>
       </div>
     </div>
