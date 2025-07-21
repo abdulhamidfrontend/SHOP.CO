@@ -56,12 +56,12 @@ const Navbar = () => {
         <div className="form">
           <form
             action=""
-            className="w-[577px] max-[1075px]:w-[500px] max-[960px]:w-[400px] max-[845px]:w-[300px] max-[735px]:w-[250px] max-[680px]:hidden flex items-center max-[1385px]:w-[400px] max-[1216px]:w-[300px]  bg-[#f0f0f0]  py-3 px-4 rounded-[66px] gap-3"
+            className="w-[577px] max-[1075px]:w-[500px] max-[960px]:w-[400px] max-[845px]:w-[300px] max-[735px]:w-[250px] max-[680px]:hidden flex items-center max-[1415px]:w-[400px] max-[1216px]:w-[300px]  bg-[#f0f0f0]  py-3 px-4 rounded-[66px] gap-3"
           >
             <IoSearch size={24} className="text-gray-500" />
             <input
               type="search"
-              className="hover:outline-none w-full max-[705px]:text-xs "
+              className="hover:outline-none text-black w-full max-[705px]:text-xs "
               placeholder="Search for products..."
             />
           </form>
