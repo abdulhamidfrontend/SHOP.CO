@@ -6,12 +6,64 @@ import prada from "../../../assets/prada.png";
 
 const Companies = () => {
   return (
-    <div className="grid grid-cols-5 w-full m-auto py-10 ">
-      <img className="h-9" src={versace} alt="Versace Img" />
-      <img className="h-9 " src={Zara} alt="Zara img" />
-      <img className="h-9" src={gucci} alt="gucci img" />
-      <img className="h-9" src={prada} alt="Prada Img" />
-      <img className="h-9" src={calvinklein} alt="Calvin Klein Img" />
+    <div className="py-10 w-full">
+      <div className="flex items-center gap-25 max-[850px]:gap-15 max-[550px]:gap-8.5 flex-wrap justify-center">
+        <a
+          href="https://www.versace.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="h-9 max-[850px]:h-6 max-[390px]:h-4"
+            src={versace}
+            alt="Versace Img"
+          />
+        </a>
+        <a
+          href="https://www.zara.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="h-9 max-[850px]:h-6 max-[390px]:h-4"
+            src={Zara}
+            alt="Zara img"
+          />
+        </a>
+        <a
+          href="https://www.gucci.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="h-9 max-[850px]:h-6 max-[390px]:h-4"
+            src={gucci}
+            alt="Gucci img"
+          />
+        </a>
+        <a
+          href="https://www.prada.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="h-9 max-[850px]:h-6 max-[390px]:h-4"
+            src={prada}
+            alt="Prada Img"
+          />
+        </a>
+        <a
+          href="https://www.calvinklein.us/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="h-9 max-[850px]:h-6 max-[390px]:h-4"
+            src={calvinklein}
+            alt="Calvin Klein Img"
+          />
+        </a>
+      </div>
     </div>
   );
 };
