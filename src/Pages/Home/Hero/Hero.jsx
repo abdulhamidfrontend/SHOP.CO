@@ -15,7 +15,7 @@ const Hero = () => {
           Shop Now
         </button>
         <div className="flex items-center max-[430px]:flex-col  max-[685px]:flex-wrap max-[685px]:w-full max-[685px]:m-auto  gap-8">
-          <div className="flex flex-col max-[400px]:items-center items-start">
+          <div className="flex flex-col max-[430px]:items-center items-start">
             <h1 className="font-bold max-[1315px]:text-3xl text-[40px] title">
               200+
             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
               International Brands
             </p>
           </div>
-          <div className="flex flex-col px-10 max-[400px]:items-center items-start max-[475px]:border-none max-[475px]:px-0 border-l border-r">
+          <div className="flex flex-col px-10 max-[430px]:items-center items-start max-[475px]:border-none max-[475px]:px-0 border-l border-r">
             <h1 className="font-bold max-[1315px]:text-3xl text-[40px] title">
               2,000+
             </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
               High-Quality Products
             </p>
           </div>
-          <div className="flex flex-col max-[400px]:items-center items-start">
+          <div className="flex flex-col max-[430px]:items-center items-start">
             <h1 className="font-bold max-[1315px]:text-3xl text-[40px] title">
               30,000+
             </h1>
