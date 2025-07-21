@@ -8,6 +8,7 @@
   --hero-bg: #f2f0f1;
   --black-btn-bg: black;
   --black-btn-text: white;
+  --comment-bg: white;
 }
 .dark {
   --text-color: #ffffff;
@@ -18,6 +19,7 @@
   --hero-bg: rgb(17, 16, 16);
   --black-btn-bg: #ffffff;
   --black-btn-text: black;
+  --comment-bg: white;
 }
 
 html,
@@ -48,4 +50,7 @@ body {
 .blackbtn {
   background-color: var(--black-btn-bg);
   color: var(--black-btn-text);
+}
+.comment {
+  background-color: var(--comment-bg);
 }
