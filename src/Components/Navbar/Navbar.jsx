@@ -41,15 +41,27 @@ const Navbar = () => {
               <option value="shop">Shop</option>
             </select>
           </div>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">On Sale</h1>
-          </Link>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">New Arrivals</h1>
-          </Link>
-          <Link to={"/"}>
-            <h1 className="text font-normal text-[16px]">Brands</h1>
-          </Link>
+          <a
+            href="#onsale"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            On Sale
+          </a>
+          <a
+            href="#new-arrivals"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            New Arrivals
+          </a>
+          <a
+            href="#brands"
+            onClick={() => setIsOpen(false)}
+            className="text font-normal scroll-smooth text-[16px]"
+          >
+            Brands
+          </a>
         </div>
       </div>
       <div className="right flex items-center gap-10 ">
