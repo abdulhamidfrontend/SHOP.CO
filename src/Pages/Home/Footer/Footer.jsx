@@ -3,6 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,18 +18,42 @@ const Footer = () => {
             wear. From women to men.
           </p>
           <div className="icons flex gap-3">
-            <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
-              <FaTwitter />
-            </button>
-            <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
-              <FaFacebookF />
-            </button>
-            <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
-              <FaInstagram />
-            </button>
-            <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
-              <FaGithub />
-            </button>
+            <a
+              href="https://www.x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
+                <FaTwitter />
+              </button>
+            </a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
+                <FaFacebookF />
+              </button>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
+                <FaInstagram />
+              </button>
+            </a>
+            <a
+              href="https://www.github.com/abdulhamidfrontend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="rounded-full text-black bg-white p-2  border-[#cccccc] border hover:bg-black hover:text-white transition duration-300 cursor-pointer">
+                <FaGithub />
+              </button>
+            </a>
           </div>
         </div>
         <div className="right max-[780px]:grid-cols-3 max-[780px]:gap-8 max-[550px]:grid-cols-2 max-[1052px]:w-full grid grid-cols-4 max-[1320px]:gap-15  max-[1185px]:gap-10 max-[1120px]:gap-5 gap-25">
@@ -36,16 +61,16 @@ const Footer = () => {
             <h1 className="font-medium text-[16px] leading-[112%]  tracking-[0.19em] uppercase ">
               Company
             </h1>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               About
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Features
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Works
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Career
             </p>
           </div>
@@ -53,16 +78,16 @@ const Footer = () => {
             <h1 className="font-medium text-[16px] leading-[112%]  tracking-[0.19em] uppercase ">
               Help
             </h1>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Customer Support
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Delivery Details
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Terms & Conditions
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Privacy Policy
             </p>
           </div>
@@ -70,16 +95,16 @@ const Footer = () => {
             <h1 className="font-medium text-[16px] leading-[112%]  tracking-[0.19em] uppercase ">
               FAQ
             </h1>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Account
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Manage Deliveries
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Orders
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Payments
             </p>
           </div>
@@ -87,16 +112,16 @@ const Footer = () => {
             <h1 className="font-medium text-[16px] leading-[112%]  tracking-[0.19em] uppercase ">
               RESOURCES
             </h1>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Free eBooks
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               Development Tutorial
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               How to - Blog
             </p>
-            <p className="font-normal text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
+            <p className="font-normal cursor-pointer  text-[16px] leading-[119%] opacity-60 max-[450px]:text-[14px] max-[400px]:text-xs">
               YouTube Playlist
             </p>
           </div>
